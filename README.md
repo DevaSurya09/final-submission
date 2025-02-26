@@ -8,7 +8,7 @@
 
 ## 📚 Books Attributes
 - id `BIGINT` : Unique identifier ( Primary Key )
-- book_name `varchar` : Book Name
+- title `varchar` : Book Title
 - description `varchar` : Book Description
 - author `BIGINT` : Book Category
 
