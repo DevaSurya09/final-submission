@@ -1,16 +1,18 @@
-# Library API Documentation
+# API Documentation
 
-## Overview
-This API allows users to manage a library collection, including creating, retrieving, updating, and deleting book records.
+## 💁‍♀️ Allowed HTTP request
+- GET : To GET data from the API
+- POST    : To send POST request to the API ( Create data )
+- PUT     : To send PUT request to the API ( Update data )
+- DELETE  : To delete data on the API 
 
-## Base URL
-```
-http://your-domain.com/api/library
-```
+## 📚 Books Attributes
+- id `BIGINT` : Unique identifier ( Primary Key )
+- book_name `varchar` : Book Name
+- description `varchar` : Book Description
+- author `BIGINT` : Book Category
 
----
-
-## Endpoints
+## 🔖Endpoints
 
 ### 1. Get All Books
 **Endpoint:**
